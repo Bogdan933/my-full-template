@@ -1,4 +1,4 @@
-@@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
 
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -53,11 +53,6 @@ header {
 	height: 50vh;
 	background: center 75% / cover no-repeat;
 }
-
-.form-page-header {
-	background-image: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/table.jpg')
-}
-
 .text-center {
     text-align: center;
 }
@@ -66,16 +61,8 @@ header {
     text-align: right;
 }
 
-strong {
-	font-size: 1.3rem;
-}
-
 .text-uppercase {
     text-transform: uppercase;
-}
-
-.underline {
-	text-decoration: underline;
 }
 
 nav {
@@ -105,7 +92,8 @@ small {
 }
 
 img {
-	border-radius: 8px;
+	position: relative;
+    border-radius: 8px;
 	width: 96%;
 	margin: 2%;
 }
@@ -119,21 +107,20 @@ img {
 }
 
 #tea-box {
-	
-    background-color: #6f4e37;
-	position: relative;
+	color: black;
+    position: relative;
 	z-index: 1;
 }
 
 #cold-drinks-box {
-	
-    background-color: chocolate;
+	color:black;
     position: relative;
-    right: 70px;
+    right: 40%;
     top: -15px;
 }
 
-.vertical-center {
+
+/*.vertical-center {
     position: relative;
     top: 30%;
 }
@@ -147,11 +134,11 @@ img {
     width: 66.66%;
     display: inline-block;
 }
-
-.reasons-box {
+*/
+.daily-box {
 	padding: 10px 5px 25px 5px;
 	border-radius: 8px;
-	width: 100%;
+	width: 80%;
 	margin: 2%;
 	background-color: brown;
     position: relative;
@@ -188,41 +175,12 @@ img {
 .menu-tile{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  paddin: 0;
+  padding: 0;
   border-bottom: none;
 }
-#rib-box {
-	
-    background-color: brown;
-    position: relative;
-    left: 40%;
-    top: -15px;
-}
-#burger-box {
-	
-    background-color: brown;
-    position: relative;
-    left: 70%;
-    top: -15px;
-}
-
-.food-box {
-  background-color: #9d671b;
-	left: 50%
-  position: relative;
-	z-index: 1;
-}
-
-
 
 .spacer {
     clear: both;
-}
-
-
-th,
-td {
-    border-bottom: 1px solid black;
 }
 
 ul {
@@ -269,66 +227,6 @@ fieldset {
 	margin-top: 20px;
 }
 
-input[type=submit] {
-	margin-top: 20px;
-	margin-left: 0.75rem;
-	padding: 0.75rem;
-	background-color: #5e361b;
-	color: white;
-	border: none;
-	border-radius: 5px;
-}
-
-input[type=reset] {
-
-	margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: white;
-    color: #5e361b;
-    border: 1px solid #5e361b;
-    border-radius: 5px;
-}
-	
-
-input[type=text],
-input[type=email],
-input[list=coffees] {
-    height: 30px;
-    width: 90%;
-    padding-left: 10px;
-	margin: 0 auto;
-}
-
-/* overrides css above */
-input[list=coffees] {
-    width: 45%;
-}
-
-select {
-    height: 36px;
-    width: 100px;
-    padding-left: 10px;
-}
-
-form {
-	width: 700px;
-	padding: 25px;
-	border-radius: 8px;
-	margin: 25px auto;
-	background-color: white;
-}
-
-.block-label {
-	display: block;
-}
-
-legend {
-	font-size: large;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin: 20px 0 10px 0;
-}
 
 .float-left {
     float: left;
@@ -340,10 +238,6 @@ legend {
 
 label {
     margin: 10px 15px 5px 0;
-}
-
-.checkboxes-box div {
-    margin-top: 15px;
 }
 
 #reasons li {
