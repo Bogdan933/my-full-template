@@ -28,3 +28,47 @@ nav a:hover {
 	background-color: #fff;
 	color: #4a4a4f;
 }
+
+.card {
+	float: left;
+	width: 20%;
+	margin-left: 10%;
+}
+.card a {
+	text-align: center;
+}
+
+img {
+	width: 100%;
+	height: 180px;
+}
+
+h2 {
+	text-align: center;
+}
+#contact {
+	background: url('https://i.imgur.com/qj2g691.jpg') 
+	margin-bottom: 50px;
+  }
+  
+  .contact-boxes-container {
+	  width: 66%;
+	  margin: 0 auto;
+  }
+  
+  .contact-box-left {
+	  width: 250px;
+	  margin-top: -20px;
+	  float: left;
+  }
+  
+  .contact-box-right {
+	  width: 250px;
+	  text-align: right;
+	  margin-top: -20px;
+	  float: right;
+  }
+  .clock {
+	width: 10%;
+	height: 10%;
+  }
