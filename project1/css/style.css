@@ -4,6 +4,16 @@
 	font-family: 'Oswald', sans-serif;
 }
 
+h1 {
+	text-align: center;
+}
+
+.cold {
+	float: middle;
+	width: 20%;
+	margin-left: 10%;
+}
+
 nav ul {
 	list-style: none;
 	background-color: #4a4a4f;
@@ -31,8 +41,8 @@ nav a:hover {
 
 .card {
 	float: left;
-	width: 20%;
-	margin-left: 10%;
+	width: 50%;
+	margin-left: 50%;
 }
 .card a {
 	text-align: center;
@@ -43,11 +53,14 @@ img {
 	height: 180px;
 }
 
-h2 {
+h1 {
+	margin-left: 0;
 	text-align: center;
 }
+
+
 #contact {
-	background: url('https://i.imgur.com/qj2g691.jpg') 
+	
 	margin-bottom: 50px;
   }
   
@@ -71,4 +84,13 @@ h2 {
   .clock {
 	width: 10%;
 	height: 10%;
+
+  }
+  .text-center {
+	text-align: center;
+  }
+
+  .steak {
+	float: left;
+	text-align: center;
   }
